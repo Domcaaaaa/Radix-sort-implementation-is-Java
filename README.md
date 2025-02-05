@@ -1,5 +1,8 @@
 # RadixSort Implementation in Java
 
+## Description
+This repository contains a Java implementation of the **Radix Sort** algorithm, a non-comparative sorting algorithm that sorts numbers by processing individual digits.
+
 ## Features
 - Implements **Radix Sort** using **Counting Sort** as a subroutine.
 - Sorts an array of integers in ascending order.
@@ -42,4 +45,3 @@ After sorting
   - `n` is the number of elements in the array,
   - `k` is the range of digits (0-9).
 - **Space Complexity**: O(n) due to the temporary arrays used in Counting Sort.
-
